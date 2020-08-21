@@ -1421,7 +1421,7 @@ col-xs-12.mbs{
 }
 
 @media only screen and (min-device-height: 896px){
-	
+
 }
 
 /*iPhone XS Max*/
@@ -1450,8 +1450,8 @@ col-xs-12.mbs{
     }
 
     .cta{
-    	margin-top: 300px;
-    	margin-bottom: 60px;
+    	/*margin-top: 300px;*/
+    	margin-bottom: 160px;
     }
 
     #myVideo{
@@ -1470,8 +1470,8 @@ col-xs-12.mbs{
 
     video#myVideo{
     	/*border-radius: 20px;*/
-    	height: 82vh;
-    	top: 80px;
+    	/*height: 82vh;*/
+    	/*top: 0px;*/
     }
 }
 
