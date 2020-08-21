@@ -269,9 +269,9 @@ header#header{
 	background: #121212;
 }*/
 
-iframe.waitlisted-embed{
+/*iframe.waitlisted-embed{
 	height: 380px;
-}
+}*/
 
 /*#button-2:hover{
 	background: #4784F4;
@@ -584,10 +584,10 @@ hr#divider{
 	text-align: center;
 }
 
-.remodal{
-	border-radius: 10px;
+/*.remodal{
+	border-radius: 10px;*/
 	/*background: #121212;*/
-}
+/*}
 
 .wlmodal.remodal.remodal-is-initialized.remodal-is-opened{
 	background: #FFFFFF;
@@ -596,16 +596,16 @@ hr#divider{
 #waitlistEmbed{
 	background: #121212;
 }
-
+*/
 /*Form page styling*/
-.wl-row.wl-name label{
+/*.wl-row.wl-name label{
 	display: block;
 }
 
 #waitListName{
 	background: #ff00ff;
 }
-
+*/
 
 .small-2{
 		display: none;
