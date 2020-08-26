@@ -1189,7 +1189,11 @@ col-xs-12.mbs{
 	}
 	
 	.container{
-		height: 0px;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		flex-direction: column-reverse;
+		position: fixed;
 	}
 
 	header.small-screen{
@@ -1255,7 +1259,9 @@ col-xs-12.mbs{
 	video#myVideo{
 	left:0px;	
 	top: 0px;
-	height: 100vh;
+	width: 100vw;
+	margin-top: auto;
+	margin-bottom: auto;
 	}
 
 	.intro{
@@ -1505,7 +1511,7 @@ col-xs-12.mbs{
     video#myVideo{
     	/*border-radius: 20px;*/
     	height: 82vh;
-    	top: 70px;
+    	top: 0px;
     }
 
     .body-logo{
