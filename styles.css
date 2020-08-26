@@ -1476,7 +1476,7 @@ col-xs-12.mbs{
 
     video#myVideo{
     	/*border-radius: 20px;*/
-    	/*height: 82vh;*/
+    	width: 100vw;
     	/*top: 0px;*/
     }
 }
@@ -1510,7 +1510,7 @@ col-xs-12.mbs{
 
     video#myVideo{
     	/*border-radius: 20px;*/
-    	height: 82vh;
+    	width: 100vw;
     	top: 0px;
     }
 
