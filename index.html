@@ -1,122 +1,92 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Geng</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="shortcut icon" type="image/x-icon" href="asset/favicon.png"/>
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JoinGeng</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="video-container">
+      <video
+        autoplay
+        muted
+        loop
+        id="myVideo"
+        poster="asset/Video Alternative.png"
+      >
+        <source src="asset/Video Landing Page.mp4" type="video/mp4" />
+      </video>
+    </div>
 
-<body>
-	<!-- Header -->
-	<div class="container">
-		<header id="header">
-			<div class="wrapper" id="myHeader">
-				<a href="index.html">
-					<img src="asset/Genglogo.png" alt="Logo">
-				</a>
+    <div class="container">
+      <div class="wrapper" id="myHeader">
+        <a href="index.html" class="desktop-logo">
+          <img src="asset/Genglogo.png" alt="Logo" />
+        </a>
 
-				<!--Menu Links-->
-				<ul class="menu">
-					<li><a id="home" href="index.html">Home</a></li>
-					<li><a id="about" href="developers.html">Developers</a></li>
-					<li><a id="access" href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform">Get early access</a></li>
-				</ul>
-			</div>
-		</header>
-		<header class="medium-screen">
-			<div class="inner-img">
-				<a href="#">
-					<img src="asset/Genglogo.png" alt="Logo">
-				</a>
-			</div>
-			<img src="asset/menu.png" class="hamburger">
-		</header>
-		<!-- <header class="small-screen">
-			<div class="body-logo">
-				<a href="#">
-					<img src="Genglogo.png" alt="Logo">
-				</a>
-			</div>
-		</header> -->
-		<!--Header End-->
+        <!--Menu Links-->
+        <ul class="menu">
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a id="about" href="developer.html">Developers</a></li>
+          <li class="button-like">
+            <a
+              id="access"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
+              >Get early access</a
+            >
+          </li>
+        </ul>
+      </div>
 
-		<!--Body-->
-			<section class="intro">
-				<div class="body-logo">
-					<a href="index.html">
-						<img src="asset/Genglogo.png" alt="Logo">
-					</a>
-				</div>
-				<video autoplay muted loop id="myVideo" poster="asset/Video Alternative.png">
-  					<source src="asset/Video Landing Page.mp4" type="video/mp4">
-				</video>
-				<div class="caption">
-					<h1 class="main-caption">
-						<div>
-						<ul class="flip4">
-							<li>Cards.</li>
-							<li>2048.</li>
-							<li>Ludo.</li>
-							<li>Games.</li>
-						</ul>
-						</div>
-						<span>Friends.<!-- <br> --> Video Chat.</span></h1>
-					<div class="sub-caption">
-						<p>We're bringing game night back!</p>
-					</div>
-					<div class="cta">
-						<a id="cta-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform">Get early access</a>	
-					</div>
-				</div>
-			</section>
-		<!--Body End-->
+      <div class="caption">
+        <h1 class="main-caption">
+          <a href="index.html" class="mobile-logo">
+            <img src="asset/Genglogo.png" alt="Logo" />
+          </a>
+          <div>
+            <ul class="flip4">
+              <li>Cards.</li>
+              <li>2048.</li>
+              <li>Ludo.</li>
+              <li>Games.</li>
+            </ul>
+          </div>
+          <span>Friends.</span
+          ><!-- <br> -->
+          <span>Video Chat.</span>
+        </h1>
+        <div class="sub-caption">
+          <p>We're bringing game night back!</p>
+        </div>
+        <div class="cta button-like">
+          <a
+            id="cta-button"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
+            >Get early access</a
+          >
+        </div>
+      </div>
 
-		<div class="container">
-			<footer id="footer">
-				<hr id="divider">
-			<div class="wrapper">
-				<span class="left-links">
-					<p id="copyright">Copyright © 2020 Geng<span style="color: #787878; padding-left: 20px;">An n-Labs company</span></p>
-					<ul class="links">
-						<li><a id="privacy" href="#">Privacy</a></li>
-						<li><a id="terms" href="#">Made with <span style="color: #FF0000">❤</span> in Ibadan</a></li>
-					</ul>
-				</span>		
-				<ul class="right-links">
-						<li><a href="/">
-							<img src="asset/instagram social.svg" alt="Instagram">
-						</a></li>
-						<li><a href="/">
-							<img src="asset/Twitter social.svg" alt="Twitter">
-						</a></li>
-					</ul>
-			</div>
-			</footer>
-
-			<footer class="small">
-				<ul>
-					<li><a href="#">Privacy Policy</a></li>
-					<li>|</li>
-					<li><a href="developers.html">Developers SDK</a></li>
-				</ul>
-
-				<div><a href="#">Made with  <span style="color: #FF0000">❤</span> in Ibadan</a></div>
-				<!-- <p style="color: #a6a6a6;"><span a href="#", style="color: #ffffff; padding-right: 20px;"> Privacy Policy</span>    |    <span a href="#", style="color: #ffffff; padding-left: 20px;">Developer SDK</span></p> -->
-			</footer>
-		</div>
-
-		<!-- <script src="https://waitlisted.co/assets/v2/embed.js" type="text/javascript"></script>
-
-		<script>
-  document.addEventListener("DOMContentLoaded", function(event) {
-    window.waitlisted.start({domain: "tq-games.app.waitlisted.co"})
-  });
-</script> -->
-
-
-
-</body>
+      <div class="bottom-bar">
+        <div class="bottom-bar--left">
+          <span>Copyright 2020 geng</span>
+          <span class="darken">
+            <span>Privacy</span> <span>Made with Love from ibadan</span>
+          </span>
+        </div>
+        <div class="bottom-bar--right">
+          <span class="closer">
+            <i data-feather="instagram"></i>
+            <i data-feather="twitter"></i>
+            <i data-feather="facebook"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>

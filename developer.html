@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JoinGeng</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
@@ -12,7 +13,7 @@
         autoplay
         muted
         loop
-        id="myVideo"
+        id="developers"
         poster="asset/Video Alternative.png"
       >
         <source src="asset/Video Landing Page.mp4" type="video/mp4" />
@@ -33,42 +34,47 @@
             <a
               id="access"
               href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
-              >Get early access</a
+              >Apply for SDK</a
             >
           </li>
         </ul>
       </div>
 
-      <div class="caption">
-        <h1 class="main-caption">
+      <div class="developer-container">
+        <div class="text-container">
           <a href="index.html" class="mobile-logo">
             <img src="asset/Genglogo.png" alt="Logo" />
           </a>
-          <div>
-            <ul class="flip4">
-              <li>Cards.</li>
-              <li>2048.</li>
-              <li>Ludo.</li>
-              <li>Games.</li>
-            </ul>
+          <div class="developer-text--mid">become an alpha developer</div>
+          <div class="developer-text--large">Unlock Real Time Multiplayer</div>
+          <div class="developer-text--small">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora at
+            suscipit distinctio odit dolorem quidem modi molestiae facere
+            blanditiis cumque unde culpa tenetur, saepe in dolore nostrum nihil,
+            earum inventore?
           </div>
-          <span>Friends.</span
-          ><!-- <br> -->
-          <span>Video Chat.</span>
-        </h1>
-        <div class="sub-caption">
-          <p>We're bringing game night back!</p>
-        </div>
-        <div class="cta button-like">
-          <a
-            id="cta-button"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
-            >Get early access</a
-          >
+          <div class="button-like">Apply for sdk</div>
         </div>
       </div>
 
-      <div class="final">hello world | hello</div>
+      <div class="bottom-bar">
+        <div class="bottom-bar--left">
+          <span>Copyright 2020 geng</span>
+          <span class="darken">
+            <span>Privacy</span> <span>Made with Love from ibadan</span>
+          </span>
+        </div>
+        <div class="bottom-bar--right">
+          <span class="closer">
+            <i data-feather="instagram"></i>
+            <i data-feather="twitter"></i>
+            <i data-feather="facebook"></i>
+          </span>
+        </div>
+      </div>
     </div>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
