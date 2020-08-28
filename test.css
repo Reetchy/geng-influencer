@@ -1,0 +1,278 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url("fonts/CircularStd-Medium.otf");
+}
+  
+@font-face {
+font-family: "Circular Two";
+src: url("fonts/CircularStd-Book.otf");
+}
+
+@font-face {
+font-family: "Circular Three";
+src: url("fonts/CircularStd-Bold.otf");
+}
+
+@font-face {
+font-family: "Circular Four";
+src: url("fonts/CircularStd-Black.otf");
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scrollbar-width: thin;
+scrollbar-color: blue orange;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    background-color: none;
+  }
+
+*::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #2e2e2e;
+    opacity: 20%;
+  }
+
+/* *::-webkit-scrollbar-track{
+    background: orange;
+} */
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: "Circular Two";
+    padding-top: 50px;
+  }
+
+.header {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    box-shadow: 0px 10px 80px black ;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 36px;
+}
+
+.text-item {
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+article h3{
+    font-size: 16px;
+    font-family: "Circular Two";
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+article h2{
+    font-size: 28px;
+    font-family: "Circular Three";
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+
+article p{
+    font-size: 20px;
+    font-family: "Circular Two";
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.apply{
+    padding: 16px 28px;
+    background-color: #4784f4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Circular Two";
+    border: 1px solid #4784f4;
+    border-radius: 56.5px;
+    text-decoration: none;
+    transition: all 100ms linear;
+}
+
+.apply a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.video-item {
+    margin: 0 auto;
+}
+
+article video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+
+.mobile-section {
+    text-align: center;
+    line-height: 2;
+    padding: 15px 10px;
+}
+
+.small-footer li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mobile-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-footer {
+    display: none;
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #2e2e2e;
+    background-color: #000;
+}
+
+.navs {
+    display: none;
+}
+
+.navs li {
+    list-style: none;
+    display: inline;
+    padding-right: 28px;
+}
+
+.navs a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Circular Two";
+    font-weight: medium;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding-bottom: 100px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 76px;
+        padding-right: 76px;
+        padding-top: 30px;
+    }
+
+    .header-apply{
+        padding: 16px 28px;
+        background-color: #4784f4;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: "Circular Two";
+        border: 1px solid #4784f4;
+        border-radius: 56.5px;
+        text-decoration: none;
+        transition: all 100ms linear;
+    }
+
+    article h3{
+        font-size: 24px;
+        font-family: "Circular Two";
+        font-weight: normal;
+        margin-bottom: 36px;
+        padding-right: 50px;
+    }
+
+    article h2{
+        font-size: 40px;
+        font-family: "Circular Three";
+        font-weight: normal;
+        padding-right: 50px;
+    }
+
+    article p{
+        font-size: 24px;
+        font-family: "Circular Two";
+        font-weight: normal;
+        line-height: 30px;
+        padding-right: 100px;
+    }
+
+    article video{
+        min-width: 250px;
+    }
+
+    .navs {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .mobile-section {
+        display: none;
+    }
+
+    .main-content {
+        flex-direction: row;
+        margin-top: 120px;
+        padding: 0 160px;
+    }
+
+    .text-item {
+        width: 60%;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .video-item {
+        width: 40%;
+    }
+
+    .main-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right-links p{
+        font-weight: normal;
+        font-size: 16px;
+        font-family: "Circular Two";
+    }
+
+    .right-links a{
+        text-decoration: none;
+        color: #787878;
+
+    }
+
+    .last{
+        list-style: none;
+    }
+
+    .last li{
+        display: inline;
+        padding-right: 20px;
+    }
+
+}

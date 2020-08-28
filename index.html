@@ -10,9 +10,8 @@
   <body>
     <div class="video-container">
       <video
-        autoplay
-        muted
-        loop
+        autoplay muted loop
+        playsinline disablepictureinpicture preload="auto"
         id="myVideo"
         poster="asset/Video Alternative.png"
       >
@@ -23,13 +22,13 @@
     <div class="container">
       <div class="wrapper" id="myHeader">
         <a href="index.html" class="desktop-logo">
-          <img src="asset/Genglogo.png" alt="Logo" />
+          <img src="asset/geng-logo.svg" alt="Logo" />
         </a>
 
         <!--Menu Links-->
         <ul class="menu">
           <li><a id="home" href="index.html">Home</a></li>
-          <li><a id="about" href="developer.html">Developers</a></li>
+          <li><a id="about" href="developers.html">Developers</a></li>
           <li class="button-like">
             <a
               id="access"
@@ -43,7 +42,7 @@
       <div class="caption">
         <h1 class="main-caption">
           <a href="index.html" class="mobile-logo">
-            <img src="asset/Genglogo.png" alt="Logo" />
+            <img src="asset/geng-logo.svg" alt="Logo" />
           </a>
           <div>
             <ul class="flip4">
@@ -71,18 +70,38 @@
 
       <div class="bottom-bar">
         <div class="bottom-bar--left">
-          <span>Copyright 2020 geng</span>
+          <p id="copyright">Copyright 2020 Geng<span style="color: #787878; padding-left: 10px;">by n-Labs</span></p>
           <span class="darken">
-            <span>Privacy</span> <span>Made with Love from ibadan</span>
+            <span id="privacy"><a href="#">Privacy</a></span> <span id="courtesy">Made with ❤ from ibadan</span>
           </span>
         </div>
         <div class="bottom-bar--right">
           <span class="closer">
-            <i data-feather="instagram"></i>
+            <!-- <i data-feather="instagram"></i>
             <i data-feather="twitter"></i>
-            <i data-feather="facebook"></i>
+            <i data-feather="facebook"></i> -->
+            
+            <!-- <a href="/">
+							<img src="asset/instagram social.svg" alt="Instagram">
+						</a>
+						<a href="/">
+							<img src="asset/Twitter social.svg" alt="Twitter">
+            </a> -->
+            <a href="mailto:hello@joingeng.com">
+              <img src="asset/Email.svg" alt="Email Us">
+            </a>
           </span>
         </div>
+      </div>
+      <div class="bottom-bar-small">
+        <ul>
+					<li><a href="#">Privacy Policy</a></li>
+					<li>|</li>
+          <li><a href="developers.html">Developer SDK</a></li>
+          <li>|</li>
+          <li><a href="mailto:hello@joingeng.com">Email Us</a></li>
+        </ul>
+        <div><a href="#">Made with  <span style="color: #FF0000">❤</span> in Ibadan</a></div>
       </div>
     </div>
     <script>
