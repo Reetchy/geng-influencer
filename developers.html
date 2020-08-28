@@ -1,82 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Geng</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="shortcut icon" type="image/x-icon" href="asset/favicon.png"/>
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- Header -->
-	<div class="container">
-		<header id="header">
-			<div class="wrapper">
-				<a href="index.html">
-					<img src="asset/Genglogo.png" alt="Logo">
-				</a>
-
-				<!--Menu Links-->
-				<ul class="menu">
-					<li><a id="home" href="index.html">Home</a></li>
-					<li><a id="about"href="#">Developers</a></li>
-					<li><a id="access"href="https://docs.google.com/forms/d/e/1FAIpQLSeZowz1PSb6EkGweXjX-XKFzDEtgFbRwO4tHsEDdhPIG7pUEg/viewform">Apply for SDK</a></li>
-				</ul>
-			</div>
-		</header>
-		<header class="medium-screen-2">
-			<div class="inner-img">
-				<a href="index.html">
-					<img src="asset/Genglogo.png" alt="Logo">
-				</a>
-			</div>
-			<img src="menu.png" class="hamburger">
-		</header>
-
-		<div class="main">
-			<section class="copy-image-2">
-				<video autoplay muted loop id="myVideo-2" poster="asset/Video Alternative.png">
-  					<source src="asset/Video Landing Page.mp4" type="video/mp4">
-				</video>
-			</section>
-
-			<section class="copy-text">
-				<h3>Be an alpha developer</h3>
-				<h2>Unlock real-time multiplayer</h2>
-				<p>Our easy-to-use SDK empowers game developers to breathe new life into old HTML5 games with our real-time video multiplayer platform & technology.</p>
-			</section>	
-		</div>	
-
-		<div class="cta-3">
-			<a id="button-2"href="https://docs.google.com/forms/d/e/1FAIpQLSeZowz1PSb6EkGweXjX-XKFzDEtgFbRwO4tHsEDdhPIG7pUEg/viewform">Apply for SDK</a>
-		</div>
-
-		<div class="container">
-			<footer id="footer">
-				<hr id="divider">
-			<div class="wrapper">
-				<span class="left-links">
-					<p id="copyright">Copyright © 2020 Geng<span style="color: #787878; padding-left: 20px;">An n-Labs company</span></p>
-					<ul class="links">
-						<li><a id="privacy" href="#">Privacy</a></li>
-						<li><a id="terms" href="#">Made with <span style="color: #FF0000">❤</span> in Ibadan</a></li>
-					</ul>
-				</span>		
-				<ul class="right-links">
-						<li><a href="/">
-							<img src="asset/instagram social.svg" alt="Instagram">
-						</a></li>
-						<li><a href="/">
-							<img src="asset/Twitter social.svg" alt="Twitter">
-						</a></li>
-					</ul>
-			</div>
-			</footer>
-
-			<footer class="small-2">
-				<p style="color: #a6a6a6;">By signing up, you agree with our<span a href="#", style="color: #ffffff;"> Terms</span> & <span a href="#", style="color: #ffffff;">Privacy Policy</p>
-			</footer>
-		</div>
+    <header class="header">
+        <a href="index.html">
+            <img src="asset/geng-logo.svg" alt="primary-logo">
+        </a>
+        <ul class="navs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="developers.html">Developers</a></li>
+            <li class="header-apply">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform"
+                >Apply for SDK</a>
+            </li>
+          </ul>
+    </header>
+    <main>
+        <section class="main-content">
+            <article class="item text-item">
+                <h3>BE AN ALPHA DEVELOPER</h3>
+                <h2>Unlock real-time multiplayer</h2>
+                <p>
+                    Our easy-to-use SDK empowers game developers to breathe new life into old HTML5 games with our real-time video multiplayer platform & technology.
+                </p>
+                <button class="apply">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ2y9OhsT-r29iG7ItVM4cvfq0v8buPX52wDaDs4kFgTAf7g/viewform">
+                Apply for SDK</a></button>
+            </article>
+            <article class="item video-item">
+                <video autoplay muted loop playsinline disablepictureinpicture preload="auto"
+                    poster="asset/Video Alternative.png">
+                    <source src="asset/Video Landing Page.mp4" type="video/mp4" />
+                </video>
+            </article>
+        </section>
+        <section class="mobile-section">
+            <ul class="small-footer">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Developer SDK</a></li>
+                <li><a href="mailto:hello@joingeng.com">Email Us</a></li>
+            </ul>
+            <a href="#">Made with  <span style="color: #FF0000">❤</span> in Ibadan</a>
+        </section>
+        <footer class="main-footer">
+            <div class="right-links">
+                <p>Copyright 2020 Geng <span style="color: #787878;">by n-Labs</span></p>
+                <ul class="last">
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Made with ❤ in Ibadan</a></li>
+                </ul>
+            </div>
+            <div class="left-links">
+                <a href="">
+                    <img src="asset/Email.svg" alt="Email Us">
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
