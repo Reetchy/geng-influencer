@@ -69,19 +69,19 @@ body {
   justify-content: space-evenly;
   align-items: center;
   min-width: 450px;
-  margin-right: 124px;
-  margin-top: 24px;
+  margin-right: 144px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   transition: all 100ms linear;
 }
 .menu a:hover {
-  font-weight: bolder;
   color: #4784f4;
 }
 
@@ -189,7 +189,8 @@ body {
 }
 
 .button-like {
-  padding: 16px 28px;
+  padding: 16px 16px;
+  margin-left: 20px;
   background-color: #4784f4;
   display: flex;
   place-items: center;
@@ -308,6 +309,7 @@ p{
 #cta-button{
   font-size: 20px;
   font-family: "Circular Three";
+  padding: 0 10px;
 }
 
 .flip4 {
