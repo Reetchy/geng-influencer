@@ -136,6 +136,19 @@ article a{
     width: 160px;
 }
 
+article ul{
+    padding-left: 18px;
+    list-style-image: url(asset/bullet.svg);
+}
+
+.top-list{
+    padding-bottom: 60px;
+}
+
+article li{
+    padding-bottom: 16px;
+}
+
 .writeup-2{
     background-color: #4784f4;
 }
@@ -159,10 +172,12 @@ article a{
 .topic-3 p{
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 #subtext{
     font-size: 16px;
+    margin-bottom: 36px;
 }
 
 .apply{
@@ -196,4 +211,47 @@ article a{
     border-radius: 56.5px;
     text-decoration: none;
     transition: all 100ms linear;
+    margin-bottom: 40px;
+}
+
+.mobile-section {
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 10px;
+}
+
+.small-footer li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 12px;
+}
+
+.mobile-section a{
+    font-size: 12px;
+}
+
+.mobile-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.small-footer li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 12px;
+}
+
+.main-footer {
+    display: none;
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #2e2e2e;
+    background-color: #000;
 }
