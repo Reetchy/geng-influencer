@@ -63,6 +63,26 @@ body {
     display: none;
 }
 
+.navs li {
+    list-style: none;
+    display: inline;
+    /* padding-right: 0px; */
+}
+
+.navs a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Circular Two";
+    font-weight: medium;
+    font-size: 16px;
+    padding: 0 20px;
+    transition: all 100ms linear;
+}
+
+.navs a:hover{
+    color: #4784f4;
+}
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -254,4 +274,121 @@ article li{
     width: 100%;
     border-top: 1px solid #2e2e2e;
     background-color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding-bottom: 100px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 76px;
+        padding-right: 76px;
+        padding-top: 30px;
+    }
+
+    .navs {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .header-apply{
+        padding: 16px;
+        background-color: #4784f4;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: "Circular Two";
+        border: 1px solid #4784f4;
+        border-radius: 56.5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 100ms linear;
+        margin-left: 20px;
+    }
+
+    .header-apply:hover {
+        transform: scale(0.98);
+    }
+
+    .header-apply a:hover {
+        color: white;
+    }
+
+    .main-content{
+        margin-bottom: 70px;
+    }
+
+    .main-content::after {
+        background-size: cover;
+        background-position: -119px -180px;
+        height: 1137px;
+      }
+
+    article h2{
+        text-align: center;
+        margin-top: 240px;
+        margin-bottom: 24px;
+        font-size: 74px;
+    }
+    
+    article p{
+        font-size: 34px;
+        margin-bottom: 62px;
+        line-height: 46px;
+    }
+
+    .text-item{
+        text-align: center;
+    }
+
+    .text-item p{
+        font-size: 36px;
+    }
+
+    .writeup{
+        background-color: #000000;
+        padding: 0 160px;
+        padding-top: 60px;
+    }
+
+    article h3{
+        font-size: 40px;
+        margin-bottom: 46px;
+        margin-top: 80px;
+    }
+
+    .topic-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .topic-2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .topic-1 img{
+        width: 379px;
+        height: 327px;
+    }
+
+    .copy-text{
+        padding-left: 50px;
+    }
+
+    .topic-2 img{
+        width: 378px;
+    }
+
+    .copy-text-2{
+        padding-right: 50px;
+    }
+
+
+
 }
