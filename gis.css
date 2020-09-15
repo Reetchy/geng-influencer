@@ -149,7 +149,7 @@ article h3{
 article img{
     width: 250px;
     margin-bottom: 48px;
-    margin-top: 32px;
+    margin-top: 36px;
 }
 
 article a{
@@ -158,6 +158,7 @@ article a{
 
 article ul{
     padding-left: 18px;
+    padding-bottom: 50px;
     list-style-image: url(asset/bullet.svg);
 }
 
@@ -181,7 +182,7 @@ article li{
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 50px;
-    padding: 6px 36px 36px 40px;
+    padding: 0px 36px 66px 36px;
 }
 
 .topic-3 img{
@@ -389,6 +390,27 @@ article li{
         padding-right: 50px;
     }
 
+    .topic-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 127px;
+    }
 
+    .writeup-2{
+        padding: 0 160px;
+        padding-top: 60px;
+    }
 
-}
+    .copy-text-3{
+        padding-left: 50px;
+    }
+
+    .copy-text-3 p{
+        font-size: 40px;
+        line-height: 51px;
+    }
+
+    .topic-3 img{
+        width: 378px;
+    }
